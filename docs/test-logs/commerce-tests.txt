@@ -1,0 +1,65 @@
+$ D:\CommerceVideoHub\.audit-venv\Scripts\python.exe app/scripts/audit_python.py commerce-publisher
+
+=================================== ERRORS ====================================
+_______________ ERROR collecting tests/test_browser_manager.py ________________
+ImportError while importing test module 'C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_browser_manager.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_browser_manager.py:9: in <module>
+    import browser_manager
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\browser_manager.py:4: in <module>
+    import fcntl
+E   ModuleNotFoundError: No module named 'fcntl'
+_______________ ERROR collecting tests/test_pdd_reliability.py ________________
+ImportError while importing test module 'C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_pdd_reliability.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_pdd_reliability.py:8: in <module>
+    from publisher import pdd_queue
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\publisher\pdd_queue.py:18: in <module>
+    from .publish_plan import cleanup_task_media, iter_plan_task_paths, load_plan, load_task, save_task
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\publisher\publish_plan.py:3: in <module>
+    import fcntl
+E   ModuleNotFoundError: No module named 'fcntl'
+_________________ ERROR collecting tests/test_publish_plan.py _________________
+ImportError while importing test module 'C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_publish_plan.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_publish_plan.py:9: in <module>
+    from publisher.publish_plan import (
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\publisher\publish_plan.py:3: in <module>
+    import fcntl
+E   ModuleNotFoundError: No module named 'fcntl'
+________________ ERROR collecting tests/test_publish_verify.py ________________
+ImportError while importing test module 'C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_publish_verify.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Users\Administrator\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\importlib\__init__.py:126: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_publish_verify.py:5: in <module>
+    from publisher import publish_verify
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\publisher\publish_verify.py:22: in <module>
+    from browser_manager import close_extra_page, new_managed_page, save_storage_state  # type: ignore  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\browser_manager.py:4: in <module>
+    import fcntl
+E   ModuleNotFoundError: No module named 'fcntl'
+=========================== short test summary info ===========================
+ERROR C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_browser_manager.py
+ERROR C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_pdd_reliability.py
+ERROR C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_publish_plan.py
+ERROR C:\Users\Administrator\Desktop\work\项目开发\多平台发布视频\commerce-multi-platform-publisher-main\tests\test_publish_verify.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 4 errors during collection !!!!!!!!!!!!!!!!!!!
+4 errors in 0.55s
+
+EXIT_CODE=2

@@ -1,0 +1,23 @@
+node : npm warn cleanup Failed to remove some directories [
+所在位置 行:2 字符: 307
++ ... +$env:PATH; node .tools/package/bin/npm-cli.js --prefix tests/audit-i ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm warn cleanu...e directories [:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\D:\\CommerceVideoHub\\tests\\audit-install\\multipublish\\node_modules',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'D:\CommerceVideoHub\tests\audit-install\multipublis
+h\node_modules\ajv\dist\refs'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\CommerceVideoHub\\tests\\audit-install\\multipublish\\node_modules\\ajv\\dist\\refs'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ENOTCACHED
+npm error request to https://registry.npmjs.org/zustand/-/zustand-5.0.14.tgz failed: cache mode is 'only-if-cached' but
+ no cached response is available.
+npm error A complete log of this run can be found in: C:\Users\Administrator\AppData\Local\npm-cache\_logs\2026-11-06T0
+9_05_00_076Z-debug-0.log

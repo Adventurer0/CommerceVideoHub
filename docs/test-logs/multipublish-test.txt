@@ -1,0 +1,22 @@
+
+> multipublish@0.1.50 test
+> node --experimental-strip-types --test src/main/persistent-store.test.mjs src/main/ffmpeg.test.ts src/main/publish-verification.test.ts
+
+✔ packaged Windows app resolves the single external ffmpeg resource first (1.114ms)
+✔ invalid bundled path is ignored when packaged binary exists (0.2928ms)
+✔ error lists every checked location (0.9756ms)
+✔ keeps the previous valid snapshot when the primary file is corrupted (22.0207ms)
+✔ recovers a fully written temporary file when the primary is missing (6.4428ms)
+✔ serializes concurrent updates without losing changes (70.0856ms)
+✔ does not retain mutations from a failed update callback (4.4801ms)
+✔ persists the last selected accounts for each publish type (8.2392ms)
+✔ Bilibili and Weixin cannot verify another video with a shared title prefix (1.0683ms)
+✔ Weixin leaves time for processing after a three-minute upload (0.1542ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 290.5895

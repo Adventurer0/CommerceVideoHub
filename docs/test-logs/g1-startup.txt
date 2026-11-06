@@ -1,0 +1,49 @@
+powershell : Audited 34 packages in 2ms
+所在位置 行:2 字符: 1
++ powershell -NoProfile -ExecutionPolicy Bypass -File ./tests/start_smo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Audited 34 packages in 2ms:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+
+> commerce-video-hub-web@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1534 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.59 kB │ gzip:   0.32 kB
+dist/assets/index-HMorNQZA.css    0.89 kB │ gzip:   0.46 kB
+dist/assets/antd-BDNOyzxu.css     2.86 kB │ gzip:   1.14 kB
+dist/assets/index-yoqDXoHh.js     4.03 kB │ gzip:   2.20 kB
+dist/assets/vendor-CDJHHB81.js  240.19 kB │ gzip:  76.09 kB
+dist/assets/antd-CMHDI0Dd.js    315.31 kB │ gzip: 106.05 kB
+✓ built in 3.49s
+CommerceVideoHub: http://127.0.0.1:8765
+G1 scaffold; publishing disabled. Press Ctrl+C to stop.
+STARTUP SMOKE PASSED: HTTP 200, database healthy, listener 127.0.0.1:8765 only.
+START/STOP ITERATION 1 PASSED
+Audited 34 packages in 1ms
+
+> commerce-video-hub-web@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1534 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.59 kB │ gzip:   0.32 kB
+dist/assets/index-HMorNQZA.css    0.89 kB │ gzip:   0.46 kB
+dist/assets/antd-BDNOyzxu.css     2.86 kB │ gzip:   1.14 kB
+dist/assets/index-yoqDXoHh.js     4.03 kB │ gzip:   2.20 kB
+dist/assets/vendor-CDJHHB81.js  240.19 kB │ gzip:  76.09 kB
+dist/assets/antd-CMHDI0Dd.js    315.31 kB │ gzip: 106.05 kB
+✓ built in 3.56s
+CommerceVideoHub: http://127.0.0.1:8765
+G1 scaffold; publishing disabled. Press Ctrl+C to stop.
+STARTUP SMOKE PASSED: HTTP 200, database healthy, listener 127.0.0.1:8765 only.
+START/STOP ITERATION 2 PASSED
+RUNTIME ACL PASSED: current user and SYSTEM only.

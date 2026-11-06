@@ -1,0 +1,9 @@
+{
+  "live_health": "passed",
+  "six_menus_and_reload": "passed",
+  "no_publish_action": "passed",
+  "mock_api_outage": "passed",
+  "browser_console_errors": [],
+  "browser": "156.0.8078.80",
+  "real_platform_tests": "not_run"
+}

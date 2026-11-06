@@ -1,0 +1,904 @@
+powershell : Audited 34 packages in 1ms
+所在位置 行:2 字符: 1
++ powershell -NoProfile -ExecutionPolicy Bypass -File ./start.ps1 -Prep ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Audited 34 packages in 1ms:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+
+added 88 packages in 10s
+
+> commerce-video-hub-web@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/index.js (1:0): Module level directives cause errors
+when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/anchor/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/anchor/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/avatar/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/avatar/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/auto-complete/index.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/auto-com
+plete/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/alert/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/alert/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/border-beam/index.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/border-bea
+m/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadcrumb/index.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadcrumb/
+index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/calendar/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/calendar/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/index.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-pic
+ker/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/collapse/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/collapse/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/col/index.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/col/index.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/drawer/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/drawer/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picker/index.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picke
+r/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dropdown/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dropdown/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-button/index.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-but
+ton/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/app/index.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/app/index.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/layout/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/layout/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/masonry/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/masonry/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/pagination/index.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/pagination/
+index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/row/index.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/row/index.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/index.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/in
+dex.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/timeline/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/timeline/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/theme/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/theme/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/index.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/
+index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/version/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/version/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/affix/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/affix/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/checkbox/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/checkbox/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/back-top/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/back-top/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/switch/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/switch/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input-number/index.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input-num
+ber/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/mentions/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/mentions/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/image/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/image/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/rate/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/rate/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popconfirm/index.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popconfirm/
+index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tag/index.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tag/index.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popover/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popover/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/listy/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/listy/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notification/index.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notificat
+ion/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/segmented/index.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/segmented/in
+dex.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/time-picker/index.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/time-picke
+r/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/flex/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/flex/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/descriptions/index.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/descripti
+ons/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/carousel/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/carousel/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree-select/index.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree-selec
+t/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tabs/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tabs/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/list/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/list/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/qr-code/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/qr-code/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/cascader/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/cascader/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/empty/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/empty/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/divider/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/divider/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config-provider/index.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config
+-provider/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tour/index.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tour/index.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/steps/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/steps/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/slider/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/slider/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/select/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/select/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tooltip/index.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tooltip/index.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/watermark/index.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/watermark/in
+dex.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/index.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/inde
+x.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/PurePanel.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/PurePa
+nel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/alert/ErrorBoundary.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/alert/Er
+rorBoundary.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadcrumb/BreadcrumbItem.js (1:0): Module level dire
+ctives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/br
+eadcrumb/BreadcrumbItem.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadcrumb/BreadcrumbSeparator.js (1:0): Module level
+ directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/
+es/breadcrumb/BreadcrumbSeparator.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/buttonHelpers.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/
+buttonHelpers.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-button/PurePanel.js (1:0): Module level directi
+ves cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float
+-button/PurePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/hooks/useBreakpoint.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/gri
+d/hooks/useBreakpoint.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/ErrorList.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/ErrorLis
+t.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/group.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/group.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/radioButton.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/radi
+oButton.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/Timer.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/Ti
+mer.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Paragraph.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typogra
+phy/Paragraph.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/anchor/AnchorLink.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/anchor/Anc
+horLink.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/checkbox/Group.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/checkbox/Grou
+p.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config-provider/DisabledContext.js (1:0): Module leve
+l directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd
+/es/config-provider/DisabledContext.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/ContextIsolator.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/
+ContextIsolator.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/Addon.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/Addon.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config-provider/defaultRenderEmpty.js (1:0): Module l
+evel directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/a
+ntd/es/config-provider/defaultRenderEmpty.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/select/usePopupRender.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/select
+/usePopupRender.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/image/PreviewGroup.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/image/Pre
+viewGroup.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popconfirm/PurePanel.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popconf
+irm/PurePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tag/CheckableTag.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tag/Checkab
+leTag.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popover/PurePanel.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/popover/Pu
+rePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/Indicator/index.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/In
+dicator/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/PurePanel.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/PurePa
+nel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/useModal/index.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/u
+seModal/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notification/PureList.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notifi
+cation/PureList.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/MenuItem.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/MenuItem.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/SubMenu.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/SubMenu.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/MenuDivider.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/MenuDi
+vider.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/descriptions/Row.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/description
+s/Row.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/utils/iconUtil.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/uti
+ls/iconUtil.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/list/Item.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/list/Item.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/qr-code/QrcodeStatus.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/qr-code
+/QrcodeStatus.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/cascader/Panel.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/cascader/Pane
+l.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/PureList.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/Pur
+eList.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/cascader/hooks/useIcons.js (1:0): Module level direct
+ives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/casc
+ader/hooks/useIcons.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/cascader/hooks/useCheckable.js (1:0): Module level di
+rectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/
+cascader/hooks/useCheckable.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/PurePanel.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/Pu
+rePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/serverError.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/se
+rverError.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/noFound.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/noFoun
+d.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/unauthorized.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/result/u
+nauthorized.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/Item.js (1:0): Module level directives cause er
+rors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/Item.js" wa
+s ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/validateMessagesContext.js (1:0): Module level d
+irectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es
+/form/validateMessagesContext.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tooltip/UniqueProvider/index.js (1:0): Module level d
+irectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es
+/tooltip/UniqueProvider/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config-provider/SizeContext.js (1:0): Module level di
+rectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/
+config-provider/SizeContext.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tour/PurePanel.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tour/PurePane
+l.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tour/panelRender.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tour/panelR
+ender.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/steps/ProgressIcon.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/steps/Pro
+gressIcon.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/steps/PanelArrow.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/steps/Panel
+Arrow.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/avatar/AvatarGroup.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/avatar/Av
+atarGroup.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/avatar/Avatar.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/avatar/Avatar.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/border-beam/BorderBeam.js (1:0): Module level directi
+ves cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/borde
+r-beam/BorderBeam.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/pagination/Pagination.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/pagina
+tion/Pagination.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/context.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/context.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/timeline/Timeline.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/timeline/T
+imeline.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/drawer/Drawer.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/drawer/Drawer.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-button/FloatButton.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/flo
+at-button/FloatButton.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/masonry/Masonry.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/masonry/Maso
+nry.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/progress.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/p
+rogress.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dropdown/dropdown.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dropdown/d
+ropdown.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Skeleton.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/S
+keleton.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/row.js (1:0): Module level directives cause erro
+rs when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/row.js" was ig
+nored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/layout/Sider.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/layout/Sider.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picker/generatePicker/index.js (1:0): Module lev
+el directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/ant
+d/es/date-picker/generatePicker/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Search.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Search.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/Badge.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/Badge.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/Statistic.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statisti
+c/Statistic.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/Panel.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/Pane
+l.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/Button.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/Button.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/layout/layout.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/layout/layout.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/DirectoryTree.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/Dire
+ctoryTree.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/collapse/Collapse.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/collapse/C
+ollapse.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/CardMeta.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/CardMeta.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/Countdown.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statisti
+c/Countdown.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Title.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/
+Title.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormList.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormList.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-button/BackTop.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-b
+utton/BackTop.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/radio.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/radio/radio.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/Form.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/Form.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Link.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/L
+ink.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/calendar/generateCalendar.js (1:0): Module level dire
+ctives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/ca
+lendar/generateCalendar.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Typography.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typogr
+aphy/Typography.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Input.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Input.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Password.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Passwor
+d.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/CardGrid.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/CardGrid.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/alert/Alert.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/alert/Alert.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/float-button/FloatButtonGroup.js (1:0): Module level
+directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/e
+s/float-button/FloatButtonGroup.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormItem/index.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/For
+mItem/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/Dragger.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/Dragge
+r.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/Ribbon.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/Ribbon.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/TextArea.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/TextAre
+a.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dropdown/dropdown-button.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dro
+pdown/dropdown-button.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Text.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/T
+ext.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/col.js (1:0): Module level directives cause erro
+rs when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/grid/col.js" was ig
+nored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/Table.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/Table.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/app/App.js (1:0): Module level directives cause error
+s when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/app/App.js" was igno
+red.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/Splitter.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/S
+plitter.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/anchor/Anchor.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/anchor/Anchor.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Group.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/Group.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/Card.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/card/Card.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadcrumb/Breadcrumb.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadc
+rumb/Breadcrumb.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/Tree.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/Tree.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/OTP/index.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/OTP/in
+dex.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/auto-complete/AutoComplete.js (1:0): Module level dir
+ectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/a
+uto-complete/AutoComplete.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/ColorPicker.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/col
+or-picker/ColorPicker.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/Upload.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/Upload.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tooltip/PurePanel.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tooltip/Pu
+rePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/breadcrumb/useItemRender.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/bre
+adcrumb/useItemRender.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/slider/SliderTooltip.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/slider/
+SliderTooltip.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/Compact.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/space/Compact.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/locale/index.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/locale/index.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/empty/simple.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/empty/simple.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/menu.js (1:0): Module level directives cause err
+ors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/menu.js" was
+ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/checkbox/Checkbox.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/checkbox/C
+heckbox.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/confirm.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/confirm.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config-provider/PropWarning.js (1:0): Module level di
+rectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/
+config-provider/PropWarning.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/image/Progress.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/image/Progres
+s.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/config-provider/MotionWrapper.js (1:0): Module level
+directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/e
+s/config-provider/MotionWrapper.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/empty/empty.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/empty/empty.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/select/useIcons.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/select/useIc
+ons.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tag/CheckableTagGroup.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tag/Ch
+eckableTagGroup.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/useMessage.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/message/u
+seMessage.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notification/PurePanel.js (1:0): Module level directi
+ves cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notif
+ication/PurePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/Modal.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/Modal.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/search.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/sea
+rch.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/Actions.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/Ac
+tions.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/notification/useNotification.js (1:0): Module level d
+irectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es
+/notification/useNotification.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/Section.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/Se
+ction.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Base/index.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typogr
+aphy/Base/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/style/index.js (1:0): Module level directives cause e
+rrors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/style/index.js"
+was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/hooks/useClosable.js (1:0): Module level direct
+ives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_uti
+l/hooks/useClosable.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/ActionButton.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/Act
+ionButton.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorPresets.js (1:0): Module
+ level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules
+/antd/es/color-picker/components/ColorPresets.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/Indicator/Looper.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/I
+ndicator/Looper.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/shared.js (1:0): Module level directives cause
+errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/shared.js
+" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/useModal/HookModal.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/mod
+al/useModal/HookModal.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/MenuContext.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/MenuCo
+ntext.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/descriptions/Cell.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/descriptio
+ns/Cell.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tooltip/UniqueProvider/MotionContent.js (1:0): Module
+ level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules
+/antd/es/tooltip/UniqueProvider/MotionContent.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/border-beam/BorderBeamEffect.js (1:0): Module level d
+irectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es
+/border-beam/BorderBeamEffect.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/timeline/useItems.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/timeline/u
+seItems.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/drawer/DrawerPanel.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/drawer/Dr
+awerPanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/Circle.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/Cir
+cle.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/Steps.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/Step
+s.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/OverrideContext.js (1:0): Module level directive
+s cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/menu/Ov
+errideContext.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Button.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/But
+ton.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Avatar.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Ava
+tar.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Input.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Inpu
+t.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Image.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Imag
+e.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Node.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Node.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Paragraph.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/
+Paragraph.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Title.js (1:0): Module level directives caus
+e errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Titl
+e.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/ScrollNumber.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/Scr
+ollNumber.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/IconWrapper.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/Ic
+onWrapper.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/DefaultLoadingIcon.js (1:0): Module level dire
+ctives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/bu
+tton/DefaultLoadingIcon.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/calendar/Header.js (1:0): Module level directives cau
+se errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/calendar/Hea
+der.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormItem/ItemHolder.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/for
+m/FormItem/ItemHolder.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormItem/StatusProvider.js (1:0): Module level d
+irectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es
+/form/FormItem/StatusProvider.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/SplitBar.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/splitter/S
+plitBar.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tree/utils/dropIndicator.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tre
+e/utils/dropIndicator.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/OTP/OTPInput.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/input/OTP
+/OTPInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorTrigger.js (1:0): Module
+ level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules
+/antd/es/color-picker/components/ColorTrigger.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/hooks/useAllowClear.js (1:0): Module level dire
+ctives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_u
+til/hooks/useAllowClear.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Editable.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typograp
+hy/Editable.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Base/CopyBtn.js (1:0): Module level direct
+ives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typo
+graphy/Base/CopyBtn.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Base/Ellipsis.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typ
+ography/Base/Ellipsis.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/ColorPickerPanel.js (1:0): Module level
+directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/e
+s/color-picker/ColorPickerPanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/Line.js (1:0): Module level directives cause
+ errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/progress/Line.
+js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/ButtonGroup.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/button/Bu
+ttonGroup.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picker/generatePicker/generateRangePicker.js (1:
+0): Module level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/no
+de_modules/antd/es/date-picker/generatePicker/generateRangePicker.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/Element.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/skeleton/El
+ement.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/masonry/MasonryItem.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/masonry/
+MasonryItem.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/ConfirmDialog.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/Co
+nfirmDialog.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/Number.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/statistic/N
+umber.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/UploadList/index.js (1:0): Module level direct
+ives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/uplo
+ad/UploadList/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picker/generatePicker/generateSinglePicker.js (1
+:0): Module level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/n
+ode_modules/antd/es/date-picker/generatePicker/generateSinglePicker.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/hooks/useSelection.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/tab
+le/hooks/useSelection.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/collapse/CollapsePanel.js (1:0): Module level directi
+ves cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/colla
+pse/CollapsePanel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/typography/Base/EllipsisTooltip.js (1:0): Module leve
+l directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd
+/es/typography/Base/EllipsisTooltip.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/ListBody.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/L
+istBody.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/@ant-design/icons/es/components/AntdIconLight.js (1:0): Modul
+e level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_module
+s/@ant-design/icons/es/components/AntdIconLight.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/InternalTable.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/In
+ternalTable.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin/Indicator/Progress.js (1:0): Module level direct
+ives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/spin
+/Indicator/Progress.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/components/NormalOkBtn.js (1:0): Module level d
+irectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es
+/modal/components/NormalOkBtn.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/components/NormalCancelBtn.js (1:0): Module lev
+el directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/ant
+d/es/modal/components/NormalCancelBtn.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/SingleNumber.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/badge/Sin
+gleNumber.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormItemInput.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/Form
+ItemInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/FormItemLabel.js (1:0): Module level directives
+cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/form/Form
+ItemLabel.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorClear.js (1:0): Module l
+evel directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/a
+ntd/es/color-picker/components/ColorClear.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/wave/WaveEffect.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/_util/
+wave/WaveEffect.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/PanelPicker/index.js (1:0): M
+odule level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_mo
+dules/antd/es/color-picker/components/PanelPicker/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/PanelPresets.js (1:0): Module
+ level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules
+/antd/es/color-picker/components/PanelPresets.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picker/generatePicker/useSuffix.js (1:0): Module
+ level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules
+/antd/es/date-picker/generatePicker/useSuffix.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/components/ConfirmOkBtn.js (1:0): Module level
+directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/e
+s/modal/components/ConfirmOkBtn.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/modal/components/ConfirmCancelBtn.js (1:0): Module le
+vel directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/an
+td/es/modal/components/ConfirmCancelBtn.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/upload/UploadList/ListItem.js (1:0): Module level dir
+ectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/u
+pload/UploadList/ListItem.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/ListItem.js (1:0): Module level directives c
+ause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/transfer/L
+istItem.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/ExpandIcon.js (1:0): Module level directives ca
+use errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/Expan
+dIcon.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/RcTable/VirtualTable.js (1:0): Module level dir
+ectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/t
+able/RcTable/VirtualTable.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/hooks/useSorter.js (1:0): Module level directiv
+es cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/
+hooks/useSorter.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/RcTable/index.js (1:0): Module level directives
+ cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/Rc
+Table/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/hooks/useFilter/index.js (1:0): Module level di
+rectives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/
+table/hooks/useFilter/index.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorInput.js (1:0): Module l
+evel directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/a
+ntd/es/color-picker/components/ColorInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/date-picker/PickerButton.js (1:0): Module level direc
+tives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/dat
+e-picker/PickerButton.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorSlider.js (1:0): Module
+level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/
+antd/es/color-picker/components/ColorSlider.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/PanelPicker/GradientColorBar.
+js (1:0): Module level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/front
+end/node_modules/antd/es/color-picker/components/PanelPicker/GradientColorBar.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorRgbInput.js (1:0): Modul
+e level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_module
+s/antd/es/color-picker/components/ColorRgbInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorHexInput.js (1:0): Modul
+e level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_module
+s/antd/es/color-picker/components/ColorHexInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorHsbInput.js (1:0): Modul
+e level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_module
+s/antd/es/color-picker/components/ColorHsbInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorAlphaInput.js (1:0): Mod
+ule level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modu
+les/antd/es/color-picker/components/ColorAlphaInput.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/hooks/useFilter/FilterDropdown.js (1:0): Module
+ level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules
+/antd/es/table/hooks/useFilter/FilterDropdown.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/color-picker/components/ColorSteppers.js (1:0): Modul
+e level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_module
+s/antd/es/color-picker/components/ColorSteppers.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/hooks/useFilter/FilterSearch.js (1:0): Module l
+evel directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/a
+ntd/es/table/hooks/useFilter/FilterSearch.js" was ignored.
+../../../../C:/CommerceVideoHub/app/frontend/node_modules/antd/es/table/hooks/useFilter/FilterWrapper.js (1:0): Module
+level directives cause errors when bundled, "use client" in "../../../../C:/CommerceVideoHub/app/frontend/node_modules/
+antd/es/table/hooks/useFilter/FilterWrapper.js" was ignored.
+✓ 1534 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.37 kB │ gzip:   0.27 kB
+dist/assets/index-D4EgTN5b.css    3.76 kB │ gzip:   1.50 kB
+dist/assets/index-DtQqtOdC.js   560.77 kB │ gzip: 184.22 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-m
+anualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 4.07s
+Preparation complete; no server started.

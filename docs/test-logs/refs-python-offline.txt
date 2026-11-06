@@ -1,0 +1,17 @@
+uv : Using Python 3.11.15 environment at: D:\CommerceVideoHub\.audit-venv
+所在位置 行:2 字符: 618
++ ... udit-venv'; uv pip install --offline --python 'D:\CommerceVideoHub\.a ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Using Python 3....Hub\.audit-venv:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+WARN greenlet==3.5.6 needs to be downloaded from a registry
+WARN charset-normalizer==3.5.2 needs to be downloaded from a registry
+  × No solution found when resolving dependencies:
+  ╰─▶ Because pytest was not found in the cache and multi-platform-auto-upload
+      depends on pytest, we can conclude that your requirements are
+      unsatisfiable.
+
+      hint: Packages were unavailable because the network was disabled. When
+      the network is disabled, registry packages may only be read from the
+      cache.
